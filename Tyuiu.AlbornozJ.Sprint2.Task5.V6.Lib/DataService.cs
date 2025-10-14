@@ -5,7 +5,7 @@ namespace Tyuiu.AlbornozJ.Sprint2.Task5.V6.Lib
 {
     public class DataService : ISprint2Task5V6
     {
-        public string FindCardNameAndValue(int value, int suit)
+        public string FindCardNameAndValue(int suit, int value)
         {
             string cardValue;
             string cardSuit;

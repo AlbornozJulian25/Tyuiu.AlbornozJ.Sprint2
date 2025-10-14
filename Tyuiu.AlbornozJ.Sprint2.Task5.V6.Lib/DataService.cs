@@ -14,31 +14,31 @@ namespace Tyuiu.AlbornozJ.Sprint2.Task5.V6.Lib
             switch (value)
             {
                 case 6:
-                    cardValue = "Шестерка";
+                    cardValue = "шестерка";
                     break;
                 case 7:
-                    cardValue = "Семерка";
+                    cardValue = "семерка";
                     break;
                 case 8:
-                    cardValue = "Восьмерка";
+                    cardValue = "восьмерка";
                     break;
                 case 9:
-                    cardValue = "Девятка";
+                    cardValue = "девятка";
                     break;
                 case 10:
-                    cardValue = "Десятка";
+                    cardValue = "десятка";
                     break;
                 case 11:
-                    cardValue = "Валет";
+                    cardValue = "валет";
                     break;
                 case 12:
-                    cardValue = "Дама";
+                    cardValue = "дама";
                     break;
                 case 13:
-                    cardValue = "Король";
+                    cardValue = "король";
                     break;
                 case 14:
-                    cardValue = "Туз";
+                    cardValue = "туз";
                     break;
                 default:
                     throw new ArgumentException($"Достоинство карты должно быть от 6 до 14. Значение: {value}");
